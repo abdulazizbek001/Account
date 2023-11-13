@@ -1,0 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+body {
+   font-family: sans-serif;
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background:  #A7D7C5;
+}
+ 
+ul {
+   list-style: none;
+}
+ 
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+ 
+img {
+   display: inline-block;
+}
+ 
+span {
+   display: inline-block;
+}
+ 
+button {
+   cursor: pointer;
+}
+ 
+.container {
+   width: 1150px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.wrapper{
+    width: 698px;
+    padding: 67px 62px 83px 59px ;
+    border-radius: 49.09px;
+    background: #F6FBF9;
+}
+
+.wrapper-title{
+    color:#212B27;
+    text-align: center;
+    font-size: 55.226px;
+    font-style: normal;
+    line-height: 71.794px;
+    margin-bottom: 7px;
+}
+
+.wrapper-text{
+    width: 472.492px;
+    color: #32403B;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 23.011px;
+    font-style: normal;
+    line-height: 29.914px;
+    margin-bottom: 50px;
+}
+
+.form-input{
+    width: 575.275px;
+    padding: 32px 33px ;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    outline: none;
+    color:black;
+    font-size: 23.01px;
+    font-style: normal;
+    line-height: 19.5px; 
+    margin-bottom: 32px;
+}
+
+.form-input::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 23.01px;
+    font-style: normal;
+    line-height: 19.5px; 
+}
+
+.form-inptu-1{
+    margin-bottom: 23px;
+}
+
+.form-btn{
+    width: 391.187px;
+    border-radius: 23.011px;
+    border:none;
+    margin-left: 90px;
+    padding: 23px 73px;
+    background: #84C7AE;
+    color: #FFF;
+    text-align: center;
+    font-size: 33.749px;
+    font-style: normal;
+    line-height: 43.874px;
+    margin-bottom: 16px;
+}
+
+.form-link{
+    margin-left: 130px;
+    color: #32403B;
+    text-align: center;
+    font-size: 21.477px;
+    font-style: normal;
+    line-height: 27.92px;
+}
